@@ -1,0 +1,14 @@
+<% if user_signed_in? then %>
+
+<% else %>
+    <li>
+      <%= link_to new_user_session_path do %>
+          <%= t :sign_in %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to new_user_registration_path do %>
+          <%= t :sign_up %>
+      <% end %>
+    </li>
+<% end %>

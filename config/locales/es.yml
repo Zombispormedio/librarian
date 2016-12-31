@@ -1,0 +1,11 @@
+es:
+  app_name: "The Librarian"
+  hello: "Hola Mundo"
+  sign_in: "Iniciar sesión"
+  sign_up: "Regístrate"
+  remember_me: "Recordar mis datos"
+  forgot_password: "¿Olvidaste tu contraseña?"
+  email: "Correo electrónico"
+  password: "Contraseña"
+  login_form_title: "Inicia sesión en tu cuenta"
+  librarian_conversion_text: La hora de la diversión

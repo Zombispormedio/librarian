@@ -20,4 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  app_name: "The Librarian"
   hello: "Hello world"
+  sign_in: "Sign in"
+  sign_up: "Sign up"
+  remember_me: "Remember me"
+  forgot_password: "Forgot your password?"
+  email: "Email"
+  password: "Password"
+  login_form_title: "Log into your account"
+  librarian_conversion_text: Funny Time
+
+

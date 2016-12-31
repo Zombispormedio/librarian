@@ -1,0 +1,14 @@
+<header>
+  <nav class="nav-wrapper">
+    <%= link_to root_path, class:"brand-logo right" do %>
+        <%= image_tag 'logo.png' %>
+    <% end %>
+    <a href="#" data-activates="drawer" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <%= render "layouts/nav_items" %>
+    </ul>
+    <ul class="side-nav" id="drawer">
+      <%= render "layouts/nav_items" %>
+    </ul>
+  </nav>
+</header>
