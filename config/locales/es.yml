@@ -18,3 +18,8 @@ es:
   reads: "Leídos"
   home: "Dashboard"
   genres: "Géneros"
+  who_can_read: "A quién leer"
+  add_or_search_authors: "Añade o busca autores de tus libros."
+  add_author: "Añadir autor"
+  search: "Buscar"
+  search_by_name: "Buscar por nombre"

@@ -39,5 +39,11 @@ en:
   reads: "Reads"
   home: "Dashboard"
   genres: "Genres"
+  who_can_read: "Who can I read?"
+  add_or_search_authors: "Add or search authors of your books."
+  add_author: "Add author"
+  search: "Search"
+  search_by_name: "Search by name"
+
 
 

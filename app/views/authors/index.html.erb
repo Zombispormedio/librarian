@@ -1,3 +1,27 @@
 <div class="container">
+  <div class="card-panel white">
+    <div class="row card-title">
+      <div class="col s8">
+        <h5><%= t :who_can_read %></h5>
+        <p><%= t :add_or_search_authors %></p>
+      </div>
+      <div class="col right">
+        <button class="btn waves-effect waves-light" type="button">
+          <i class="material-icons left">add</i>  <%= t :add_author %>
+        </button>
+      </div>
 
+    </div>
+
+    <div class="row card-content">
+      <div class="col s8">
+        <div class="input-field">
+          <input id="author_name" type="text" class="validate" placeholder="<%= t :search_by_name %>">
+        </div>
+      </div>
+      <div class="col s4">
+        <input class="waves-effect waves-light btn-flat" type="button" value="<%= t :search %>" />
+      </div>
+    </div>
+  </div>
 </div>
