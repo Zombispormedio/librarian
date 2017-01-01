@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161226211951) do
+ActiveRecord::Schema.define(version: 20170101130410) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,74 @@ ActiveRecord::Schema.define(version: 20161226211951) do
   enable_extension "unaccent"
   enable_extension "pgcrypto"
   enable_extension "plperl"
+
+  create_table "authors", force: :cascade do |t|
+    t.string   "name"
+    t.string   "olid"
+    t.string   "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "books", force: :cascade do |t|
+    t.string   "title"
+    t.string   "olid"
+    t.string   "cover_url"
+    t.string   "genre_id"
+    t.string   "author_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "copies", force: :cascade do |t|
+    t.string   "book_id"
+    t.string   "isbn"
+    t.date     "edition_date"
+    t.string   "cover_url"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "genres", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "reads", force: :cascade do |t|
+    t.string   "book_id"
+    t.string   "copy_id"
+    t.date     "read_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tagged_authors", force: :cascade do |t|
+    t.string   "tag_id"
+    t.string   "author_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tagged_books", force: :cascade do |t|
+    t.string   "tag_id"
+    t.string   "book_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tagged_genres", force: :cascade do |t|
+    t.string   "tag_id"
+    t.string   "genre_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tags", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

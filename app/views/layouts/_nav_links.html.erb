@@ -1,0 +1,43 @@
+<% if user_signed_in? then %>
+    <li>
+      <%= link_to root_path do %>
+          <%= t :copies %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to root_path do %>
+          <%= t :reads %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to root_path do %>
+          <%= t :books %>
+      <% end %>
+    </li>
+    <li  class="<%='active' if current_page?(authors_url)%>">
+      <%= link_to authors_path do %>
+          <%= t :authors %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to root_path do %>
+          <%= t :genres %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to destroy_user_session_path do %>
+          <%= t :sign_out %>
+      <% end %>
+    </li>
+<% else %>
+    <li>
+      <%= link_to new_user_session_path do %>
+          <%= t :sign_in %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to new_user_registration_path do %>
+          <%= t :sign_up %>
+      <% end %>
+    </li>
+<% end %>

@@ -11,4 +11,10 @@ es:
   email: "Correo electrónico"
   password: "Contraseña"
   login_form_title: "Inicia sesión en tu cuenta"
-  librarian_conversion_text: ¿Estás aburrido? ¿Tienes la casa llena de libros y no sabes que hacer con ellos? Ha llegado la hora de ordenarlos y saber ante que bestias de la literatura te encuentras. ¿Preparado para ...
+  librarian_conversion_text: "¿Estás aburrido? ¿Tienes la casa llena de libros y no sabes que hacer con ellos? Ha llegado la hora de ordenarlos y saber ante que bestias de la literatura te encuentras. Preparado para ..."
+  copies: "Ejemplares"
+  books: "Libros"
+  authors: "Autores"
+  reads: "Leídos"
+  home: "Dashboard"
+  genres: "Géneros"

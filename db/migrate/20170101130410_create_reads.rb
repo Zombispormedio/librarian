@@ -1,0 +1,11 @@
+class CreateReads < ActiveRecord::Migration[5.0]
+  def change
+    create_table :reads do |t|
+      t.string :book_id
+      t.string :copy_id
+      t.date :read_at
+
+      t.timestamps
+    end
+  end
+end

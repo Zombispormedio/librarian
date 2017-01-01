@@ -32,6 +32,12 @@ en:
   email: "Email"
   password: "Password"
   login_form_title: "Log into your account"
-  librarian_conversion_text: Are you bored? Is your house plenty of books and you don't know what do with them? It's the time to order and know who beasts of Literature you have. Ready for...
+  librarian_conversion_text: "Are you bored? Is your house plenty of books and you don't know what do with them? It's the time to order and know who beasts of Literature you have. Ready for..."
+  copies: "Copies"
+  books: "Books"
+  authors: "Authors"
+  reads: "Reads"
+  home: "Dashboard"
+  genres: "Genres"
 
 

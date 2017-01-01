@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'authors' => 'authors#index'
+
   root 'home#index'
 
   devise_for :users, path: "/"
