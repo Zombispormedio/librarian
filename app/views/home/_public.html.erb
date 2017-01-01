@@ -1,0 +1,38 @@
+<div class="row home-main">
+  <div class="col s6 m5">
+    <div class="login-wrapper card-panel light-blue lighten-1">
+      <h4 class="white-text center"><%=t :login_form_title %></h4>
+      <%= form_for(:user, :url => session_path(:user)) do |f| %>
+          <div class="row">
+            <div class="input-field col s12">
+              <%= f.text_field :email, class: "validate" %>
+              <%= f.label :email, t(:email), class: "white-text" %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <%= f.password_field :password, class: "validate" %>
+              <%= f.label :password, t(:password), class: "white-text" %>
+            </div>
+          </div>
+          <div class="row remember-forgot">
+            <div class="col s6">
+              <%= f.check_box :remember_me, class: "filled-in" %>
+              <%= f.label :remember_me, t(:remember_me), class: "white-text" %>
+            </div>
+            <div class="col s6">
+              <%= link_to t(:forgot_password), new_password_path(:user), class: "link white-text" %>
+            </div>
+          </div>
+          <div class="row">
+            <%= f.submit t(:sign_in), class: "btn waves-effect waves-light white light-blue-text col s12" %>
+          </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="col s12 m6">
+    <p class="flow-text"><%=t :librarian_conversion_text%></p>
+    <h1 class="app-presentation-title center"><%=t :app_name%></h1>
+  </div>
+</div>

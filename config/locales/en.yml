@@ -23,12 +23,15 @@ en:
   app_name: "The Librarian"
   hello: "Hello world"
   sign_in: "Sign in"
+  sign_in_on_app: "Sign in on Librarian"
   sign_up: "Sign up"
+  sign_out: "Sign out"
+  join_to: "Join today to Librarian"
   remember_me: "Remember me"
   forgot_password: "Forgot your password?"
   email: "Email"
   password: "Password"
   login_form_title: "Log into your account"
-  librarian_conversion_text: Funny Time
+  librarian_conversion_text: Are you bored? Is your house plenty of books and you don't know what do with them? It's the time to order and know who beasts of Literature you have. Ready for...
 
 

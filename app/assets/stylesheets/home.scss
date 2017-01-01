@@ -11,6 +11,8 @@
   .input-field {
     input[type=text], input[type=password] {
       border-bottom: 0.5px solid rgba(255,255,255,0.5);
+      box-shadow: none;
+      color: rgba(255,255,255,0.5);
     }
   }
 }

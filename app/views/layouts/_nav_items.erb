@@ -1,5 +1,9 @@
 <% if user_signed_in? then %>
-
+    <li>
+      <%= link_to destroy_user_session_path do %>
+          <%= t :sign_out %>
+      <% end %>
+    </li>
 <% else %>
     <li>
       <%= link_to new_user_session_path do %>

@@ -2,10 +2,13 @@ es:
   app_name: "The Librarian"
   hello: "Hola Mundo"
   sign_in: "Iniciar sesión"
+  sign_in_on_app: "Iniciar sesión en Librarian"
   sign_up: "Regístrate"
+  sign_out: "Cerrar sesión"
+  join_to: "Únete hoy a Librarian"
   remember_me: "Recordar mis datos"
   forgot_password: "¿Olvidaste tu contraseña?"
   email: "Correo electrónico"
   password: "Contraseña"
   login_form_title: "Inicia sesión en tu cuenta"
-  librarian_conversion_text: La hora de la diversión
+  librarian_conversion_text: ¿Estás aburrido? ¿Tienes la casa llena de libros y no sabes que hacer con ellos? Ha llegado la hora de ordenarlos y saber ante que bestias de la literatura te encuentras. ¿Preparado para ...
