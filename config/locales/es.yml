@@ -16,7 +16,7 @@ es:
   books: "Libros"
   authors: "Autores"
   reads: "Leídos"
-  home: "Dashboard"
+  home: "Inicio"
   genres: "Géneros"
   who_can_read: "A quién leer"
   add_or_search_authors: "Añade o busca autores de tus libros."

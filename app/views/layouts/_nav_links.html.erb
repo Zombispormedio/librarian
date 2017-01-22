@@ -1,4 +1,9 @@
-<% if user_signed_in? then %>
+<% if user_signed_in? %>
+    <li  class="<%='active' if current_page?(root_url)%>">
+      <%= link_to root_path do %>
+          <%= t :home %>
+      <% end %>
+    </li>
     <li>
       <%= link_to root_path do %>
           <%= t :copies %>

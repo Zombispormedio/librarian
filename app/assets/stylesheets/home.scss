@@ -5,6 +5,9 @@
 .home-main{
   margin-top: 1%;
 }
+
+$focus-border-color: #01579b;
+
 .login-wrapper{
   border-radius: 8px !important;
   margin-top: 5%;
@@ -13,6 +16,9 @@
       border-bottom: 0.5px solid rgba(255,255,255,0.5);
       box-shadow: none;
       color: rgba(255,255,255,0.8);
+      &:focus{
+        border-bottom: 0.5px solid $focus-border-color;
+      }
     }
   }
 }
