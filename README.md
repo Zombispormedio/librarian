@@ -1,25 +1,5 @@
-# README
+# Limbo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Work in progress]
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-"# librarian" 
+I have a lot of books at home and I need a book record, so nobody in my family think of buying or borrow in the library a book that is at home. In addition, it's ever good to know what books you have at home.
